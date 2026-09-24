@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Univeral Selector */
+       * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Element selector ,tag name tway select lok */
+        h1{
+            color: aquamarine;
+        }
+
+        p{
+            background-color: aqua;
+        }
+        /* Id Selector */
+        *nose{
+            background-color: pink;
+            font-size: 40px;
+        }
+        /* Class Selector */
+        .eye-makup{
+            color: brown;
+            background-color: white;
+            font-size: 30px;
+        }
+        /* <!-- Attributes Selector --> */
+        input[type="email"]{
+            background-color: black;
+            color: white;
+        }
+
+        /* Decendant Selector */
+        div p{
+            background-color: yellow;
+        }
+        /* Child Selector */
+        div > p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selector</h1>
+    <p>Universal Selector</p>
+    <p>Hello CSS</p>
+    <p id="nose">Nose</p>
+    <p class="eye-makup">Left Eye</p>
+    <p class="eye-makup">Right Eye</p>
+    <input type="email" name="" id="">
+    <input type="text" name="" id="">
+    <div>
+        <p>This is paragraph 1</p>
+        <p>This is paragraph 2</p>
+        <p>This is paragraph 3</p>
+        <p>This is paragraph 4</p>
+        <span>
+            <p>This is paragraph 5</p>
+        </span>
+        <p>This is paragraph 6</p>
+    </div>
+</body>
+</html>
