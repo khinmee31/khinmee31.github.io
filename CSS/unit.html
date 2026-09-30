@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Absolute unit border,box shadows,text shadpws,border radius,max width limit,pt(point),cm,mm, in-use print */
+        button {
+            border: 1px solid red;
+            border-radius: 100px;
+            padding: 10px 300px;
+        }
+
+        /* Relative unit */
+        /* Percent unit - depend on parent element*/
+
+        .container {
+            margin-top: 20px;
+            background-color: rebeccapurple;
+            width: 70%;
+        }
+
+        .box {
+            background-color: yellow;
+            width: 50%;
+            padding: 2%;
+        }
+
+        /* em -element,button(padding,font size,line height spacing) */
+        .em-container {
+            font-size: 1em;
+        }
+
+        /* 1820=20px */
+        .nt {
+            font-size: 1em;
+        }
+
+        /* 3*20=60px */
+        .lt {
+            font-size: 3em;
+        }
+
+        /* root default size -16px 
+        rem-root element font size(h1 to h6,p),global layout spacing,grid colum gaps*/
+
+        html {
+            /* font-size:32px; */
+        }
+
+        .header {
+            /* 16*1=16px */
+            font-size: 1em;
+        }
+
+        .title {
+
+            font-size: 3em;
+        }
+
+        .detail {
+            font-size: 2rem;
+        }
+
+        /* 1vw,1vh-1% */
+        .vw-container{
+            background-color: lightblue;
+            width: 50vw;
+        }
+
+        /* vh */
+        header{
+            height: 100vh;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body>
+    <button>Save</button>
+    <div class="container">
+        <div class="box">Box</div>
+    </div>
+    <!-- em -->
+    <div class="em-container">
+        <p class="nt">Normal Text</p>
+        <p class="lt">Large Text</p>
+    </div>
+    <!-- rem -->
+    <div class="header">
+        <p class="title">Title</p>
+        <p class="detail">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis ipsa dolorem quasi ratione
+            tempora fugiat nobis dicta! Esse, ut! Velit veritatis quam tempora dolore unde repudiandae dolorem rem
+            quibusdam?
+        </p>
+    </div>
+    <!-- vw -view port width -->
+    <div class="vw-container">
+        <p>This is view port width</p>
+    </div>
+    <!-- vh - view port height -->
+    <header>
+        <p>This is header</p>
+    </header>
+</body>
+
+</html>
