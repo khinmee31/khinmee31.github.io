@@ -202,6 +202,11 @@ body {
     margin: 0;
 }
 
+.hbrand-message p:first-child {
+    color: #A65A50;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
 .hbrand-message p {
    color: #252321;
     line-height: 1.8;
@@ -216,10 +221,19 @@ body {
 
 /* Shop Heading */
 .shop-heading {
+    background-color: #EAE0D5;
+    padding: 50px 40px;
     text-align: center;
-    margin: 60px 0 40px 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
 }
 
+.shop-heading p:first-child {
+    color: #A65A50;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
 .shop-heading h1 {
     font-family: Georgia, serif;
     font-size: 2.5rem;
@@ -277,7 +291,32 @@ body {
     margin-bottom: 10px;
 }
 
+/* Shop Brand Message */
+.shop-message {
+    background-color: #EAE0D5;
+    padding: 40px 20px;
+    text-align: center;
+}
 
+.shop-message p:first-child {
+    color: #A65A50;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.shop-message h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: #252321;
+    margin: 12px 0;
+}
+
+.shop-message p:last-child {
+    color: #6B6259;
+    font-size: 14px;
+    line-height: 1.7;
+}
 /* Collections Hero */
 .collections-hero {
     height: 300px;
@@ -561,7 +600,6 @@ body {
     line-height: 1.6;
 }
 
-
 /* Our Promise */
 .about-promise {
     padding: 40px 20px;
@@ -593,6 +631,12 @@ body {
     background-color: #A65A50;
 }
 
+/* About Section Labels */
+.about-story-text p:first-child,
+.about-philosophy-text p:first-child,
+.about-promise p:first-child {
+    color: #A65A50;
+}
 /* Contact Heading */
 .contact-heading {
     padding: 50px 40px;
