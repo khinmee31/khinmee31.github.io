@@ -323,9 +323,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image:
-        linear-gradient(rgba(248, 245, 240, 0.20),
-            rgba(248, 245, 240, 0.20)), url("../images/hero-image2.jpg");
+    background-image:url("../images/hero-image2.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -798,7 +796,7 @@ body {
 
 .brand-message-text {
     width: 60%;
-     text-align: center;
+    text-align: center;
 }
 
 .brand-message-text h2 {
@@ -875,7 +873,6 @@ body {
     display: block;
     color: #D8C9B5;
     text-decoration: none;
-
     margin-bottom: 12px;
 }
 
@@ -883,7 +880,7 @@ body {
     color: #A65A50;
 }
 
-.footer .copyright {
+.footer,.copyright {
 
     color: #D8C9B5;
     border-top: 1px solid #6B6259;
